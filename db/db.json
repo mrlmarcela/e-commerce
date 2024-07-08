@@ -55,6 +55,38 @@
       "totalItems": 2,
       "totalPrice": 253,
       "deliveryDate": "2024-07-17"
+    },
+    {
+      "id": "20240708-800",
+      "date": "2024-07-08",
+      "status": "Em progresso",
+      "totalItems": 5,
+      "totalPrice": 632.5,
+      "deliveryDate": "2024-07-17"
+    },
+    {
+      "id": "20240708-157",
+      "date": "2024-07-08",
+      "status": "Em progresso",
+      "totalItems": 9,
+      "totalPrice": 1138.5,
+      "deliveryDate": "2024-07-17"
+    },
+    {
+      "id": "20240708-77",
+      "date": "2024-07-08",
+      "status": "Em progresso",
+      "totalItems": 8,
+      "totalPrice": 1012,
+      "deliveryDate": "2024-07-17"
+    },
+    {
+      "id": "20240708-586",
+      "date": "2024-07-08",
+      "status": "Em progresso",
+      "totalItems": 8,
+      "totalPrice": 1012,
+      "deliveryDate": "2024-07-17"
     }
   ],
   "products": [
