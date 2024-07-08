@@ -46,8 +46,8 @@
             <div class="container d-flex justify-content-center">
                   <div class="d-lg-flex align-items-center">
                         <router-link to="/" class="nav-link px-5">Home</router-link>
-                        <router-link to="/products" class="nav-link px-5">Catálogo</router-link>
                         <router-link to="/dashboard" class="nav-link px-5">Dashboard</router-link>
+                        <router-link to="/requests" class="nav-link px-5">Pedidos</router-link>
                         <router-link to="/shopping_cart" class="nav-link px-5">Produtos</router-link>
                   </div>
             </div>

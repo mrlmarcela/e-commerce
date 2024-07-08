@@ -4,7 +4,7 @@
 
     <body class="container">
       <Header />
-      <div class="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0 pt-5">
+      <div class="pt-5">
         <router-view />
       </div>
     </body>
