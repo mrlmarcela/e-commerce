@@ -291,6 +291,10 @@
                   </div>
             </div>
       </section>
+      <div v-if="pedidoRealizado" class="alert alert-success alert-dismissible fade show" role="alert">
+            Pedido realizado com sucesso! Você pode acompanhar na aba de pedidos.
+            <button type="button" class="btn-close" @click="fecharAlerta" aria-label="Close"></button>
+      </div>
 </template>
 <script>
 
@@ -302,6 +306,7 @@ export default {
       },
       data() {
             return {
+                  pedidoRealizado: false,
                   product: {},
                   selectedColor: 'Verde',
                   colors: [
@@ -405,9 +410,12 @@ export default {
                   })
                         .then(response => {
                               if (response.ok) {
-                                    console.log('Item adicionado ao carrinho com sucesso');
+                                    alert('Pedido realizado! Você será redirecionado para a aba pedidos em 3 segundos.');
+                                    setTimeout(() => {
+                                          this.$router.push('/requests');
+                                    }, 3000);
                               } else {
-                                    console.error('Erro ao adicionar ao carrinho');
+                                    alert('Houve um erro e não conseguimos processar sua solicitação.');
                               }
                         })
                         .catch(error => {
@@ -416,7 +424,6 @@ export default {
             },
 
             getNextOrderId() {
-
                   const randomId = Math.floor(Math.random() * 1000) + 1;
                   return randomId.toString();
             },
@@ -425,10 +432,7 @@ export default {
                   let currentDate = new Date();
                   let workingDaysToAdd = 7;
                   let deliveryDate = this.addWorkingDays(currentDate, workingDaysToAdd);
-
-                  const options = { year: 'numeric', month: '2-digit', day: '2-digit' };
-                  const formattedDate = new Date(deliveryDate).toLocaleDateString('pt-BR', options);
-                  return formattedDate;
+                  return deliveryDate.toISOString().split('T')[0];
             },
 
             addWorkingDays(date, daysToAdd) {
