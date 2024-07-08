@@ -1,0 +1,84 @@
+{
+  "orders": [
+    {
+      "id": "20240708-819",
+      "date": "2024-07-08",
+      "status": "Em progresso",
+      "totalItems": 3,
+      "totalPrice": 379.5,
+      "deliveryDate": "2024-07-17"
+    },
+    {
+      "id": "20240708-76",
+      "date": "2024-07-08",
+      "status": "Em progresso",
+      "totalItems": 2,
+      "totalPrice": 253,
+      "deliveryDate": "2024-07-17"
+    },
+    {
+      "id": "20240708-13",
+      "date": "2024-07-08",
+      "status": "Entregue",
+      "totalItems": 2,
+      "totalPrice": 253,
+      "deliveryDate": "2024-07-17"
+    },
+    {
+      "id": "20240708-13",
+      "date": "2024-07-08",
+      "status": "Cancelado",
+      "totalItems": 2,
+      "totalPrice": 253,
+      "deliveryDate": "2024-07-17"
+    },
+    {
+      "id": "20240708-890",
+      "date": "2024-07-08",
+      "status": "Entregue",
+      "totalItems": 1,
+      "totalPrice": 126.5,
+      "deliveryDate": "2024-07-17"
+    },
+    {
+      "id": "20240708-519",
+      "date": "2024-07-08",
+      "status": "Entregue",
+      "totalItems": 2,
+      "totalPrice": 253,
+      "deliveryDate": "2024-07-17"
+    },
+    {
+      "id": "20240708-793",
+      "date": "2024-07-08",
+      "status": "Em progresso",
+      "totalItems": 2,
+      "totalPrice": 253,
+      "deliveryDate": "2024-07-17"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Suéter de tricot chenille manga longa",
+      "description": "Suéter confeccionado em tricot chenille com toque macio. A peça possui modelagem reta com caimento solto, tramas espaçadas, decote redondo, mangas longas e acabamento canelado.",
+      "originalPrice": 156.5,
+      "currentPrice": 126.5,
+      "reviews": {
+        "count": 23,
+        "averageStars": 4.6
+      }
+    },
+    {
+      "id": "2",
+      "name": "Calça Jeans",
+      "description": "Calça Jeans para o dia a dia",
+      "originalPrice": 299.99,
+      "currentPrice": 179.9,
+      "reviews": {
+        "count": 4,
+        "averageStars": 5
+      }
+    }
+  ]
+}
