@@ -31,7 +31,7 @@
                               class="btn btn-icon btn-lg fs-xl btn-outline-secondary position-relative border-0 rounded-circle animate-scale"
                               data-bs-toggle="offcanvas" data-bs-target="#shoppingCart" aria-controls="shoppingCart"
                               aria-label="Shopping cart">
-                              <router-link to="/"
+                              <router-link to="/requests"
                                     class="btn btn-icon btn-lg fs-lg btn-outline-secondary border-0 rounded-circle animate-pulse d-none d-md-inline-flex">
                                     <span
                                           class="position-absolute top-0 start-100 badge fs-xs text-bg-primary rounded-pill mt-1 ms-n4 z-2">3</span>
@@ -45,10 +45,9 @@
       <div class="collapse navbar-stuck-hide mt-3" id="stuckNav">
             <div class="container d-flex justify-content-center">
                   <div class="d-lg-flex align-items-center">
-                        <router-link to="/" class="nav-link px-5">Home</router-link>
                         <router-link to="/dashboard" class="nav-link px-5">Dashboard</router-link>
+                        <router-link to="/details_product" class="nav-link px-5">Detalhes do produto</router-link>
                         <router-link to="/requests" class="nav-link px-5">Pedidos</router-link>
-                        <router-link to="/details_product" class="nav-link px-5">Produto</router-link>
                   </div>
             </div>
       </div>

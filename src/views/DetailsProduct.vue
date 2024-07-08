@@ -425,7 +425,10 @@ export default {
                   let currentDate = new Date();
                   let workingDaysToAdd = 7;
                   let deliveryDate = this.addWorkingDays(currentDate, workingDaysToAdd);
-                  return deliveryDate.toISOString().split('T')[0];
+
+                  const options = { year: 'numeric', month: '2-digit', day: '2-digit' };
+                  const formattedDate = new Date(deliveryDate).toLocaleDateString('pt-BR', options);
+                  return formattedDate;
             },
 
             addWorkingDays(date, daysToAdd) {
