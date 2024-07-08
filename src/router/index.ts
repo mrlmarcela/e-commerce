@@ -1,37 +1,29 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
-import Home from '../views/Home.vue'
+import Dashboard from '../views/Dashboard.vue';
+import DetailsProduct from '../views/DetailsProduct.vue';
+import Requests from '../views/Requests.vue';
 
 const routes: RouteRecordRaw[] = [
   {
-    path: '/',
-    name: 'home',
-    component: () => import('../views/DetailsProduct.vue')
+    path: '/dashboard',
+    name: 'dashboard',
+    component: Dashboard
   },
   {
-    path: '/shopping_cart',
-    name: 'shopping_cart',
-    component: () => import('../views/ShoppingCart.vue')
+    path: '/details_product',
+    name: 'details_product',
+    component: DetailsProduct
   },
   {
-      path: '/dashboard',
-      name: 'dashboard',
-      component: () => import('../views/Dashboard.vue')
-    },
-    {
-      path: '/details_product',
-      name: 'details_product',
-      component: () => import('../views/DetailsProduct.vue')
-    },
-    {
-      path: '/requests',
-      name: 'requests',
-      component: () => import('../views/Requests.vue')
-    }
-]
+    path: '/requests',
+    name: 'requests',
+    component: Requests
+  }
+];
 
 const router = createRouter({
-      history: createWebHistory(),
-      routes
-    });
-    
-    export default router;
+  history: createWebHistory(),
+  routes
+});
+
+export default router;
