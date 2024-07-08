@@ -2,10 +2,8 @@
       <div class="container">
             <div class="ps-lg-3 ps-xl-0">
                   <div class="row align-items-center pb-3 pb-md-4 mb-md-1 mb-lg-2">
-                        <div class="col-md-4 col-xl-6 mb-3 mb-md-0">
+                        <div class="col-md-12 col-xl-6 mb-3 mb-md-0">
                               <h1 class="h2 me-3 mb-0">Pedidos</h1>
-                        </div>
-                        <div class="col-md-8 col-xl-6">
                         </div>
                   </div>
 

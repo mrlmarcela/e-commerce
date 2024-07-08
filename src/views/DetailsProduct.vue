@@ -397,7 +397,7 @@ export default {
                         date: today.toISOString().split('T')[0],
                         status: "Em progresso",
                         totalItems: totalItems,
-                        totalPrice: totalPrice.toFixed(2),
+                        totalPrice: parseFloat(totalPrice.toFixed(2)),
                         deliveryDate: deliveryDate
                   };
 

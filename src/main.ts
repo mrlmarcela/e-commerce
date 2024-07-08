@@ -6,6 +6,7 @@ import './assets/css/style.css';
 import './assets/css/style.min.css';
 import bootstrap from 'bootstrap/dist/js/bootstrap.js';
 import router from './router';
+import Chart from 'chart.js/auto';
 
 const app = createApp(App);
 
