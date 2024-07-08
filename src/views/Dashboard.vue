@@ -60,7 +60,7 @@
                                                             atual</p>
                                                 </div>
                                           </div>
-                                          <div class="echart-total-sales-chart">
+                                          <div>
                                                 <ChartComponent :chartType="'bar'" :chartData="monthlyChartData"
                                                       :chartOptions="chartOptions" :dataLoaded="dataLoaded" />
                                           </div>
@@ -77,7 +77,7 @@
                                                             entregues e em processamento por mês</p>
                                                 </div>
                                           </div>
-                                          <div class="echart-total-sales-chart">
+                                          <div>
                                                 <ChartComponent :chartType="'bar'" :chartData="monthlyRevenueChartData"
                                                       :chartOptions="chartOptions" :dataLoaded="dataLoaded" />
                                           </div>
@@ -178,7 +178,7 @@ export default defineComponent({
                   monthlyChartData,
                   monthlyRevenueChartData,
                   chartOptions,
-                  dataLoaded // Passa a flag para o template
+                  dataLoaded
             };
       }
 });
