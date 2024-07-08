@@ -15,13 +15,13 @@ Were used:
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
 ### To start the backend
 
 ```
 npm run backend
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
 ```

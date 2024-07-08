@@ -4,7 +4,6 @@
     <body class="container">
       <Header />
       <div class="pt-5">
-        <!-- Apenas para exemplo, você pode adaptar para sua rota específica -->
         <router-view />
       </div>
     </body>
