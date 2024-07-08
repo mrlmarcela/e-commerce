@@ -93,6 +93,13 @@
 import { defineComponent, ref, onMounted } from 'vue';
 import ChartComponent from '../components/ChartComponent.vue';
 
+interface Order {
+      id: string;
+      date: string;
+      status: string;
+      totalPrice: number;
+}
+
 export default defineComponent({
       components: {
             ChartComponent
@@ -137,16 +144,16 @@ export default defineComponent({
             const getOrders = async () => {
                   try {
                         const response = await fetch('http://localhost:3000/orders');
-                        const data = await response.json();
+                        const data: Order[] = await response.json();
 
-                        completedOrders.value = data.filter(order => order.status === 'Entregue').length;
-                        processingOrders.value = data.filter(order => order.status === 'Em progresso').length;
-                        cancelledOrders.value = data.filter(order => order.status === 'Cancelado').length;
+                        completedOrders.value = data.filter((order: Order) => order.status === 'Entregue').length;
+                        processingOrders.value = data.filter((order: Order) => order.status === 'Em progresso').length;
+                        cancelledOrders.value = data.filter((order: Order) => order.status === 'Cancelado').length;
 
                         const monthlySales = new Array(12).fill(0);
                         const monthlyRevenue = new Array(12).fill(0);
 
-                        data.forEach(order => {
+                        data.forEach((order: Order) => {
                               const orderDate = new Date(order.date);
                               const month = orderDate.getMonth();
 
