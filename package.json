@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "serve": "vite",
-  "build": "npm run build:backend && vue-tsc -b && vite build",
-  "build:backend": "json-server db/db.json --port 3001 &"
-},
+    "dev": "vite",
+    "serve": "vite",
+    "build": "npm run backend && vue-tsc -b && vite build",
+    "backend": "json-server --watch db/db.json",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@types/chart.js": "^2.9.41",
     "bootstrap": "^5.3.3",

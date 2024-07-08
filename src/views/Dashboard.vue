@@ -143,7 +143,7 @@ export default defineComponent({
 
             const getOrders = async () => {
                   try {
-                        const response = await fetch('http://localhost:3001/orders');
+                        const response = await fetch('http://localhost:3000/orders');
                         const data: Order[] = await response.json();
 
                         completedOrders.value = data.filter((order: Order) => order.status === 'Entregue').length;

@@ -328,7 +328,7 @@ export default {
       methods: {
             getProductDetails() {
                   const productId = '1';
-                  fetch(`http://localhost:3001/products/${productId}`)
+                  fetch(`http://localhost:3000/products/${productId}`)
                         .then(response => response.json())
                         .then(data => {
                               this.product = data;
@@ -401,7 +401,7 @@ export default {
                         deliveryDate: deliveryDate
                   };
 
-                  fetch('http://localhost:3001/orders', {
+                  fetch('http://localhost:3000/orders', {
                         method: 'POST',
                         headers: {
                               'Content-Type': 'application/json'
