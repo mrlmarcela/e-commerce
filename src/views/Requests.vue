@@ -39,8 +39,16 @@
                                           </th>
                                           <th scope="col" class="py-3 d-none d-md-table-cell">
                                                 <button type="button" class="btn orders-sort fw-bold text-body p-0"
-                                                      @click="sortBy('total')">Total
-                                                      <i v-if="state.sortKey === 'total'"
+                                                      @click="sortBy('totalItems')">Total de itens
+                                                      <i v-if="state.sortKey === 'totalItems'"
+                                                            :class="['bi bi-sort-' + (state.sortDirection === 'asc' ? 'up' : 'down')]"
+                                                            class="fs-lg align-middle ms-1"></i>
+                                                </button>
+                                          </th>
+                                          <th scope="col" class="py-3 d-none d-md-table-cell">
+                                                <button type="button" class="btn orders-sort fw-bold text-body p-0"
+                                                      @click="sortBy('totalPrice')">Valor total
+                                                      <i v-if="state.sortKey === 'totalPrice'"
                                                             :class="['bi bi-sort-' + (state.sortDirection === 'asc' ? 'up' : 'down')]"
                                                             class="fs-lg align-middle ms-1"></i>
                                                 </button>
@@ -66,14 +74,15 @@
                                                             {{ order.status }}
                                                       </li>
                                                       <li class="fw-medium text-body-emphasis">{{
-                                                            formatCurrency(order.total) }}</li>
+                                                            formatCurrency(order.totalPrice) }}</li>
                                                 </ul>
                                           </td>
                                           <td class="fw-medium py-3 d-none d-md-table-cell">{{ formatDate(order.date) }}
                                           </td>
                                           <td class="fw-medium py-3 d-none d-md-table-cell">{{ order.status }}</td>
+                                          <td class="fw-medium py-3 d-none d-md-table-cell">{{ order.totalItems }}</td>
                                           <td class="fw-medium py-3 d-none d-md-table-cell">{{
-                                                formatCurrency(order.total) }}</td>
+                                                formatCurrency(order.totalPrice) }}</td>
                                           <td class="py-3 pe-0">
                                                 <span
                                                       class="d-flex align-items-center justify-content-end position-relative gap-1 gap-sm-2 ms-n2 ms-sm-0">
@@ -106,7 +115,8 @@ interface Order {
       id: string;
       date: string;
       status: string;
-      total: number;
+      totalItems: number;
+      totalPrice: number;
       deliveryDate: string;
 }
 

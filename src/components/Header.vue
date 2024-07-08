@@ -48,7 +48,7 @@
                         <router-link to="/" class="nav-link px-5">Home</router-link>
                         <router-link to="/dashboard" class="nav-link px-5">Dashboard</router-link>
                         <router-link to="/requests" class="nav-link px-5">Pedidos</router-link>
-                        <router-link to="/shopping_cart" class="nav-link px-5">Produtos</router-link>
+                        <router-link to="/details_product" class="nav-link px-5">Produto</router-link>
                   </div>
             </div>
       </div>

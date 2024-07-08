@@ -1,298 +1,65 @@
 {
   "orders": [
     {
-      "id": "78A6431D409",
-      "date": "2025-02-06",
+      "id": "20240708-819",
+      "date": "2024-07-08",
       "status": "Em progresso",
-      "total": 2105.90,
-      "deliveryDate": "2025-03-13"
+      "totalItems": 3,
+      "totalPrice": "379.50",
+      "deliveryDate": "2024-07-17"
     },
     {
-      "id": "47H76G09F33",
-      "date": "2024-12-12",
-      "status": "Entregue",
-      "total": 360.75,
-      "deliveryDate": "2025-01-18"
-    },
-    {
-      "id": "502TR872W2",
-      "date": "2024-11-07",
-      "status": "Entregue",
-      "total": 4268.00,
-      "deliveryDate": "2024-12-13"
-    },
-    {
-      "id": "34VB5540K83",
-      "date": "2024-09-15",
-      "status": "Cancelado",
-      "total": 987.50,
-      "deliveryDate": ""
-    },
-    {
-      "id": "112P45A90V2",
-      "date": "2024-05-12",
-      "status": "Entregue",
-      "total": 53.00,
-      "deliveryDate": "2024-06-18"
-    },
-    {
-      "id": "28BA67U0981",
-      "date": "2024-04-20",
-      "status": "Cancelado",
-      "total": 1029.50,
-      "deliveryDate": ""
-    },
-    {
-      "id": "HJ907KLYT34",
-      "date": "2023-12-30",
-      "status": "Entregue",
-      "total": 765.25,
-      "deliveryDate": "2024-02-05"
-    },
-    {
-      "id": "90AJK5HJ678",
-      "date": "2023-11-18",
+      "id": "20240708-76",
+      "date": "2024-07-08",
       "status": "Em progresso",
-      "total": 1200.00,
-      "deliveryDate": "2023-12-24"
+      "totalItems": 2,
+      "totalPrice": "253.00",
+      "deliveryDate": "2024-07-17"
     },
     {
-      "id": "KJLH8456783",
-      "date": "2023-09-22",
-      "status": "Entregue",
-      "total": 180.50,
-      "deliveryDate": "2023-11-01"
-    },
-    {
-      "id": "SD5KJ34HJL8",
-      "date": "2023-07-14",
-      "status": "Cancelado",
-      "total": 500.00,
-      "deliveryDate": ""
-    },
-    {
-      "id": "0987JHGK456",
-      "date": "2023-06-01",
-      "status": "Entregue",
-      "total": 75.80,
-      "deliveryDate": "2023-07-07"
-    },
-    {
-      "id": "65HKJ4567JL",
-      "date": "2023-04-19",
+      "id": "20240708-13",
+      "date": "2024-07-08",
       "status": "Em progresso",
-      "total": 890.00,
-      "deliveryDate": "2023-05-25"
+      "totalItems": 2,
+      "totalPrice": "253.00",
+      "deliveryDate": "2024-07-17"
     },
     {
-      "id": "LKJH8765KJ3",
-      "date": "2023-02-28",
-      "status": "Entregue",
-      "total": 450.25,
-      "deliveryDate": "2023-04-06"
-    },
-    {
-      "id": "JHKL5438765",
-      "date": "2022-12-15",
-      "status": "Cancelado",
-      "total": 1500.00,
-      "deliveryDate": ""
-    },
-    {
-      "id": "JH8765KL432",
-      "date": "2022-10-27",
-      "status": "Entregue",
-      "total": 960.90,
-      "deliveryDate": "2022-12-02"
-    },
-    {
-      "id": "HJLK87654J3",
-      "date": "2022-08-11",
-      "status": "Cancelado",
-      "total": 780.00,
-      "deliveryDate": ""
-    },
-    {
-      "id": "G67F54G6098",
-      "date": "2022-06-29",
-      "status": "Entregue",
-      "total": 280.00,
-      "deliveryDate": "2022-08-05"
-    },
-    {
-      "id": "JH89KJ76543",
-      "date": "2022-04-14",
+      "id": "20240708-13",
+      "date": "2024-07-08",
       "status": "Em progresso",
-      "total": 190.50,
-      "deliveryDate": "2022-05-20"
+      "totalItems": 2,
+      "totalPrice": "253.00",
+      "deliveryDate": "2024-07-17"
     },
     {
-      "id": "KJH765LKJ98",
-      "date": "2022-02-18",
-      "status": "Entregue",
-      "total": 640.20,
-      "deliveryDate": "2022-03-26"
+      "id": "20240708-890",
+      "date": "2024-07-08",
+      "status": "Em progresso",
+      "totalItems": 1,
+      "totalPrice": "126.50",
+      "deliveryDate": "2024-07-17"
     },
     {
-      "id": "H76G5F43HJ8",
-      "date": "2021-12-05",
-      "status": "Cancelado",
-      "total": 110.00,
-      "deliveryDate": ""
-    },
-    {
-      "id": "4H76J90K9L3",
-      "date": "2021-10-11",
-      "status": "Entregue",
-      "total": 880.75,
-      "deliveryDate": "2021-11-17"
-    },
-    {
-      "id": "9H7J60K93L2",
-      "date": "2021-08-24",
-      "status": "Cancelado",
-      "total": 430.50,
-      "deliveryDate": ""
+      "id": "20240708-519",
+      "date": "2024-07-08",
+      "status": "Em progresso",
+      "totalItems": 2,
+      "totalPrice": "253.00",
+      "deliveryDate": "2024-07-17"
     }
   ],
   "products": [
     {
-      "id": 1,
-      "name": "Camiseta Básica",
-      "description": "Camiseta básica unissex",
-      "composition": "Algodão",
-      "images": [
-        "https://example.com/camiseta-basica-branco.jpg",
-        "https://example.com/camiseta-basica-preto.jpg",
-        "https://example.com/camiseta-basica-azul.jpg"
-      ],
-      "colors": [
-        {
-          "name": "Branco",
-          "sizes": {
-            "P": 20,
-            "M": 30,
-            "G": 40,
-            "GG": 30,
-            "XG": 20,
-            "XXG": 10
-          }
-        },
-        {
-          "name": "Preto",
-          "sizes": {
-            "P": 15,
-            "M": 25,
-            "G": 35,
-            "GG": 25,
-            "XG": 15,
-            "XXG": 5
-          }
-        },
-        {
-          "name": "Azul",
-          "sizes": {
-            "P": 18,
-            "M": 28,
-            "G": 38,
-            "GG": 28,
-            "XG": 18,
-            "XXG": 8
-          }
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Calça Jeans",
-      "description": "Calça jeans masculina",
-      "composition": "Algodão e Elastano",
-      "images": [
-        "https://example.com/calca-jeans-azul-claro.jpg",
-        "https://example.com/calca-jeans-azul-escuro.jpg",
-        "https://example.com/calca-jeans-preto.jpg"
-      ],
-      "colors": [
-        {
-          "name": "Azul Claro",
-          "sizes": {
-            "P": 25,
-            "M": 35,
-            "G": 45,
-            "GG": 35,
-            "XG": 25,
-            "XXG": 15
-          }
-        },
-        {
-          "name": "Azul Escuro",
-          "sizes": {
-            "P": 22,
-            "M": 32,
-            "G": 42,
-            "GG": 32,
-            "XG": 22,
-            "XXG": 12
-          }
-        },
-        {
-          "name": "Preto",
-          "sizes": {
-            "P": 20,
-            "M": 30,
-            "G": 40,
-            "GG": 30,
-            "XG": 20,
-            "XXG": 10
-          }
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Vestido Floral",
-      "description": "Vestido feminino com estampa floral",
-      "composition": "Viscose",
-      "images": [
-        "https://example.com/vestido-floral-rosa.jpg",
-        "https://example.com/vestido-floral-azul.jpg",
-        "https://example.com/vestido-floral-verde.jpg"
-      ],
-      "colors": [
-        {
-          "name": "Rosa",
-          "sizes": {
-            "P": 15,
-            "M": 20,
-            "G": 25,
-            "GG": 20,
-            "XG": 15,
-            "XXG": 10
-          }
-        },
-        {
-          "name": "Azul",
-          "sizes": {
-            "P": 18,
-            "M": 25,
-            "G": 30,
-            "GG": 25,
-            "XG": 18,
-            "XXG": 12
-          }
-        },
-        {
-          "name": "Verde",
-          "sizes": {
-            "P": 12,
-            "M": 18,
-            "G": 22,
-            "GG": 18,
-            "XG": 12,
-            "XXG": 8
-          }
-        }
-      ]
+      "id": "1",
+      "name": "Suéter de tricot chenille manga longa",
+      "description": "Suéter confeccionado em tricot chenille com toque macio. A peça possui modelagem reta com caimento solto, tramas espaçadas, decote redondo, mangas longas e acabamento canelado.",
+      "originalPrice": 156.5,
+      "currentPrice": 126.5,
+      "reviews": {
+        "count": 23,
+        "averageStars": 4.6
+      }
     }
   ]
 }
