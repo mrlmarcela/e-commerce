@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "serve": "vite",
     "build": "npm run backend && vue-tsc -b && vite build",
     "backend": "json-server --watch db/db.json",
     "preview": "vite preview"
