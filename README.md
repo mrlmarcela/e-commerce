@@ -15,6 +15,8 @@ Were used:
 npm install
 ```
 
+**Important, start the backend in one terminal, and compile the project in another terminal;**
+
 ### To start the backend
 
 ```
